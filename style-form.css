@@ -1,0 +1,94 @@
+html, body {
+    margin: 0px;
+    background-color: #EFBB00;
+}
+
+#container {
+    background-color: white;
+    width: 70%;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loggin {
+    display: flex;
+    grid-row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#loggin * {
+    margin: 5px;
+    text-align: center;
+}
+
+#butons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.buton {
+    border-radius: 32px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+
+#cancel:hover {
+    background-color: rgb(182, 182, 178);
+}
+
+#submit {
+    background-color: rgb(101, 162, 233);
+    color: white;
+}
+
+#submit:hover {
+    background-color: rgb(94, 189, 75);
+}
+
+#criarconta {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    border-radius: 100px;
+    outline: none;
+    border: 2px solid black;
+    padding: 10px;
+    transition: width 1s;
+}
+
+.inputs:focus {
+    width: 100%;
+    border: 2px solid #EFBB00;
+}
+
+h1 {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
