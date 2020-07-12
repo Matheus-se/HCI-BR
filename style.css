@@ -31,7 +31,6 @@ html, body {
     margin-top: 20px;
     margin-bottom: 100px;
     margin-left: 50%;
-    transform: translate(-50%);
 }
 
 #rodape {
@@ -43,8 +42,8 @@ html, body {
 }
 
 #rodape > * {
-    margin: 10px;
-    font-size: 2vh;
+    margin-left: 10px;
+    font-size: 1.5vh;
 }
 
 p {
@@ -65,7 +64,7 @@ h1 {
     display: flex;
     margin: 0px;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    transform: translate(-50%);
 }
 
 .produtos > * {
@@ -91,7 +90,6 @@ h1 {
 
 hr {
     border: solid #EFBB00;
-    height: 10px;
     width: 100%;
     margin: 5px;
 }
@@ -118,19 +116,20 @@ a {
 
 .texto {
     position: absolute;
-    transform: translate(-50%);
     top: 25%;
-    left: 50%;
     color: white;
     text-shadow: 4px 4px 8px black;
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 
 .texto h1 {
     font-size: 10vh;
     margin: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
     font-weight: 100;
 }
 
